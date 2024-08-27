@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { FaTrash } from "react-icons/fa";
 
-const Content = ({ items, setItems, handleCheck, handleDelete }) => {
+const Content = ({ items, handleCheck, handleDelete }) => {
   return (
     <>
       <div className="list-items">
