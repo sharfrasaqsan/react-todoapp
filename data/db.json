@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "checked": true,
+      "name": "Get some boiled water"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "name": "Do excercise"
+    },
+    {
+      "id": "3",
+      "checked": false,
+      "name": "Daily job works"
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "name": "Play some games"
+    },
+    {
+      "id": "5",
+      "checked": false,
+      "name": "Coding practice"
+    }
+  ]
+}

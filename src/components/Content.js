@@ -4,7 +4,7 @@ import { FaTrash } from "react-icons/fa";
 
 const Content = ({ items, setItems, handleCheck, handleDelete }) => {
   return (
-    <main>
+    <>
       <div className="list-items">
         {items.length ? (
           <ul>
@@ -41,7 +41,7 @@ const Content = ({ items, setItems, handleCheck, handleDelete }) => {
           <p>Your list is empty</p>
         )}
       </div>
-    </main>
+    </>
   );
 };
 
