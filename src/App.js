@@ -54,9 +54,12 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!newItem) return;
-    addItem(newItem);
-    setNewItem("");
+    if (newItem) {
+      addItem(newItem);
+      setNewItem("");
+    } else {
+      alert("Please enter an task");
+    }
   };
 
   const handleCheck = async (id) => {
