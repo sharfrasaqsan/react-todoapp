@@ -7,7 +7,7 @@
     },
     {
       "id": "2",
-      "checked": false,
+      "checked": true,
       "name": "Do excercise"
     },
     {
@@ -19,6 +19,11 @@
       "id": "4",
       "checked": false,
       "name": "Play some games"
+    },
+    {
+      "id": "41",
+      "checked": true,
+      "name": "Lean React"
     }
   ]
 }
